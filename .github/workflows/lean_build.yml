@@ -3,7 +3,7 @@ on:
 
 jobs:
   build_project:
-    runs-on: ubunt-latest
+    runs-on: ubuntu-latest
     name: Build Lean project
     steps:
       - name: checkout project
