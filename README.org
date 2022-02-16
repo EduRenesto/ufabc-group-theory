@@ -1,0 +1,52 @@
+#+TITLE: ufabc-group-theory
+#+AUTHOR: Edu Renesto
+
+* Introduction
+
+Some months ago, I watched Andrej Bauer's amazing [[https://www.youtube.com/watch?v=zp6WleEjHUg][Dawn of Formalized
+Mathematics]] lecture, and got really interested on type theory and
+theorem provers. I, then, decided to pick up a theorem prover and to
+study it, in order to get acquainted with the techniques and the
+general way of thinking.
+
+The theorem prover that I chose was [[https://leanprover.github.io/][Lean]]. Its syntax is quite simple,
+pleasing and unobtrusive, and I felt that its type system is
+"forgiving", in a certain way. You can do stuff constructively, which
+is nice, but there's the /undecidable/ annotation that lets you do
+classical logic, with proofs by contradiction and stuff. Which is also
+nice, but as far as I have seen, not that practical in other theorem
+provers.
+
+Also, Lean has a phenomenal community-developed library called
+[[https://leanprover-community.github.io/mathlib_docs/index.html][mathlib]]. It has a huge collection of already formalised and proved
+definitions and theorems, which can be used to formalise other
+structures just like a programmer would use a library to create
+other programs.
+
+* About this repository
+
+This quarter (first of 2022, /2022.1/), I am enrolled in the Group
+Theory course at UFABC, under professor Dr. Enrique Ramirez. I thought
+formalising all (or at least) most of the content of the course would
+be a great way for me to study both group theory, the subject of the
+course, and Lean.
+
+This repository, thus, contains my attempts at formalising undergrad
+group theory.
+
+* Disclaimer
+
+I will, most probably, upload publicly the formalisations to the exercise
+sheets and tests given during the course. In order to not give out my
+answers for graded assignments I will, of course, only commit those
+changes after the corresponding due dates.
+
+* License
+
+I can't imagine why anyone would like to use the code in this
+repository (aside from the very simple CI/CD setups), specially
+considering that all of the mathematics here are already formalised
+(in a much, much better way) by the matlib people.
+
+Regardless, this code is released under the [[https://anticapitalist.software/][Anti-Capitalist Software
+License]].
